@@ -1,4 +1,4 @@
-# Hotel
+# Reservations
 This Java program is designed to calculate the maximum profit that can be obtained from booking reservations for two rooms. It does so by employing dynamic programming and memoization techniques to efficiently solve the problem.
 
 The program defines a nested class `Reserves` to store the start day, end day, and price of each reservation. The main logic for calculating the maximum profit is encapsulated within the `MaxProfit` method, which takes the current index in the list of reservations, the current availability of each room, the list of all reservations, and a memoization hashmap to avoid recalculating profits for the same states.
